@@ -17,7 +17,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         glue = {"com.project.stepdefinitions"},
         plugin = {"com.cucumber.listener.ExtentCucumberFormatter:TestResults/CMS GOV Test Automation.html"},
         format = {
-                "json:target/cucumber-regression.json",
+                "json:target/CMS_Gov_Test_Automation.json",
                 "pretty",
                 "html:target/cucumber/Login"}
 )
